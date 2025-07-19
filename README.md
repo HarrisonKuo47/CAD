@@ -79,9 +79,9 @@ C++11 or later
 GNU Make / g++
 Build All Tools
 Bash
-.
-.
-.
+
+
+
 Author
 Tsu-Hao Kuo (郭子浩)
 
