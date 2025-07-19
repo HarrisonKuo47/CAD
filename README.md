@@ -11,7 +11,7 @@ The primary focus is on a deep understanding of the core algorithms, implemented
 This repository is a collection of four major programming assignments (PAs), each tackling a different aspect of VLSI design automation.
 
 
-1. Benchmark Translator (Netlist to Verilog)
+#1. Benchmark Translator (Netlist to Verilog)
 This tool serves as a front-end utility to parse a standard circuit representation and convert it into a hardware description language.
 
 Functionality: Translates ISCAS'85-style .netlist files into structural, gate-level Verilog (.v) files.
@@ -22,7 +22,7 @@ Translation: Generates a complete Verilog module with correct port declarations 
 
 Verification: The output Verilog is designed to be synthesizable and verifiable against a testbench using standard EDA tools like ncverilog.
 
-2. Circuit Partitioning (Fiduccia-Mattheyses)
+#2. Circuit Partitioning (Fiduccia-Mattheyses)
 This project implements the classic Fiduccia-Mattheyses (FM) heuristic to solve the netlist partitioning problem, a critical first step in physical design.
 
 Algorithm: Performs two-way partitioning on a gate-level netlist with the primary objective of minimizing the cut size (the number of nets that span both partitions).
@@ -33,7 +33,7 @@ Optimization: Iteratively refines the partition by moving the single cell that p
 
 Features: Implements core FM concepts including cell locking after a move, dynamic gain updates for neighboring cells, and a rollback mechanism to restore the partition state that yielded the minimum cut size during a pass.
 
-3. Graph-Based Static Timing Analysis (STA)
+#3. Graph-Based Static Timing Analysis (STA)
 -A critical tool for verifying that a circuit meets its performance targets without running exhaustive simulations. This STA engine calculates signal propagation delays through a combinational circuit.
 
 -Parsing: Reads a gate-level Verilog netlist and a standard cell timing library in Liberty (.lib) format.
