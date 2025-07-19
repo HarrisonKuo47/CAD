@@ -79,36 +79,10 @@ C++11 or later
 GNU Make / g++
 Build All Tools
 Bash
-
-# This command assumes a unified Makefile is in the root directory
-make all
-Example Usage
-Each tool is built and run from its respective directory using its own Makefile.
-
-Bash
-
-# Run PA1: Benchmark Translator
-cd pa1_translator/
-make
-./exe c17.netlist c17.v
-
-# Run PA2: Circuit Partitioning
-cd ../pa2_partitioner/
-make
-./PA2 case1 case1.out
-
-# Run PA3: Static Timing Analysis
-cd ../pa3_sta/
-make
-./PA3 c17.v test_lib.lib
-
-# Run PA4: Analog Floorplanner
-cd ../pa4_floorplanner/
-make
-./PA4 input=case1.block output=case1.out
-
-
-✍️ Author
+.
+.
+.
+Author
 Tsu-Hao Kuo (郭子浩)
 
 Graduate Student @ National Central University, ICS Lab
