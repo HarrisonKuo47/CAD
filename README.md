@@ -6,8 +6,10 @@ This repository contains a suite of C++ programs that model fundamental algorith
 
 The primary focus is on a deep understanding of the core algorithms, implemented with a focus on efficiency and accuracy.
 
+
 🛠️ Implemented Tools
 This repository is a collection of four major programming assignments (PAs), each tackling a different aspect of VLSI design automation.
+
 
 1. Benchmark Translator (Netlist to Verilog)
 This tool serves as a front-end utility to parse a standard circuit representation and convert it into a hardware description language.
