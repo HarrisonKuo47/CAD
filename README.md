@@ -8,7 +8,7 @@ A compact suite of C++ programs implementing fundamental algorithms in VLSI CAD,
 - Analog floorplanning (Simulated Annealing)
 
 Author: Tsu-Hao Kuo (郭子浩)  
-Affiliation: Graduate Student @ NCU ICS Lab  
+Affiliation: Graduate Student @ NCU  
 Focus: Digital CAD, Timing Analysis, Physical Design
 
 ---
