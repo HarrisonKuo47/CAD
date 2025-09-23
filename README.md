@@ -280,7 +280,7 @@ Add a `LICENSE` file at the repo root. Until then, consider this “All rights r
 
 ## Acknowledgements
 
-- National Central University, ICS Lab
+- National Central University, CAD for VLSI Design by Prof. Yu-Guang Chen
 - ISCAS’85, Nangate Liberty, and other public datasets
 - Classic references: FM partitioning, Liberty NLDM, Simulated Annealing
 
